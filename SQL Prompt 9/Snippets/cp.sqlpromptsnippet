@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>cp</Title>
+      <Shortcut>cp</Shortcut>
+      <Description>Create stored procedure</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>procedure_name</ID>
+          <ToolTip />
+          <Default>[schema].[procedure_name]</Default>
+        </Literal>
+        <Literal>
+          <ID>description</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[USE [$DBNAME$]
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		Twite, Jonathan
+-- Create date: $DATE(yyyy-MM-dd)$
+-- Description:	$description$
+-- =============================================
+CREATE OR ALTER PROCEDURE $procedure_name$
+	-- Add the parameters for the stored procedure here
+	$CURSOR$
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+    -- Insert statements for procedure here
+	
+END
+GO
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
