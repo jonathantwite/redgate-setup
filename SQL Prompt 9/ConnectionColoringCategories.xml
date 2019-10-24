@@ -24,5 +24,9 @@
       <Category>Local</Category>
       <Color>#FF9357D4</Color>
     </value>
+    <value version="2" type="ServerCategory">
+      <Category>Backups</Category>
+      <Color>#FFCBCC28</Color>
+    </value>
   </CategoryList>
 </Categories>
