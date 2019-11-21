@@ -96,7 +96,7 @@
   <PlaceCaseFirstWhenOnNewLine>Always</PlaceCaseFirstWhenOnNewLine>
   <PlaceClosingParenthesisOnNewLine>true</PlaceClosingParenthesisOnNewLine>
   <PlaceCommasBeforeListItems>false</PlaceCommasBeforeListItems>
-  <PlaceJoinOnKeywordOnANewLine>false</PlaceJoinOnKeywordOnANewLine>
+  <PlaceJoinOnKeywordOnANewLine>true</PlaceJoinOnKeywordOnANewLine>
   <PlaceJoinTableOnNewLine>false</PlaceJoinTableOnNewLine>
   <PreferBreakBeforeAsKeyword>false</PreferBreakBeforeAsKeyword>
   <PreferBreakBeforeBetweenAndKeyword>false</PreferBreakBeforeBetweenAndKeyword>
