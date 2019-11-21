@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!---->
 <UIOptions version="1" type="UIOptions">
   <SuggestionsEnabledOnStartUpSSMS>True</SuggestionsEnabledOnStartUpSSMS>
@@ -49,7 +49,7 @@
   <FormatterActiveStyleName>Active Style (old)</FormatterActiveStyleName>
   <TransparentPopupsEnabled>True</TransparentPopupsEnabled>
   <MigratedStyles>True</MigratedStyles>
-  <KeyboardBindingOverrides version="1" type="RedGate.SQLPrompt.OptionsUI.Options.KeyboardBindingOverrides">
+  <KeyboardBindingOverrides version="1" type="RedGate.SQLPrompt.CommonUI.Options.Options.KeyboardBindingOverrides">
     <Overrides type="Overrides" version="2" />
   </KeyboardBindingOverrides>
   <ProvidedFirstUseLoginPopup>True</ProvidedFirstUseLoginPopup>

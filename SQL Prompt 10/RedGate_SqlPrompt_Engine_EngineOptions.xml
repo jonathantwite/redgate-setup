@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!---->
 <EngineOptions version="1" type="EngineOptions">
   <AutoPopupEnabled>True</AutoPopupEnabled>
@@ -63,5 +63,5 @@
   <TestGenerateFullUpdateStatement>False</TestGenerateFullUpdateStatement>
   <TestAddDefaultValuesForUpdate>False</TestAddDefaultValuesForUpdate>
   <TestIncludeTypeHintsForUpdatedValues>False</TestIncludeTypeHintsForUpdatedValues>
-  <ShowPrioritizedSuggestions>True</ShowPrioritizedSuggestions>
+  <RankedSuggestionsEnabled>True</RankedSuggestionsEnabled>
 </EngineOptions>
