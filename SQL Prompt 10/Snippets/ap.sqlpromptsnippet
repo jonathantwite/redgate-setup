@@ -2,9 +2,9 @@
 <CodeSnippets>
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>ssf</Title>
-      <Shortcut>ssf</Shortcut>
-      <Description>SELECT * FROM fragment</Description>
+      <Title>ap</Title>
+      <Shortcut>ap</Shortcut>
+      <Description>ALTER PROCEDURE fragment</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
@@ -12,8 +12,7 @@
     </Header>
     <Snippet>
       <Declarations />
-      <Code Language="sql"><![CDATA[SELECT * 
-FROM ]]></Code>
+      <Code Language="sql"><![CDATA[ALTER PROCEDURE ]]></Code>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>

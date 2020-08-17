@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>e8ver</Title>
+      <Shortcut>e8ver</Shortcut>
+      <Description>Return the Elector 8 Version summary</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[SELECT TOP(1) SL.Version
+FROM dbo.ScriptLog AS SL
+WHERE SL.Version <> '0.0.0'
+ORDER BY
+    CAST(SUBSTRING(SL.Version, 0, LEN(SL.Version) - CHARINDEX('.', REVERSE(SL.Version)) + 1) AS DECIMAL(5, 2)) DESC,
+    SL.DateApplied DESC;]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

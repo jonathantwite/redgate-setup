@@ -2,9 +2,9 @@
 <CodeSnippets>
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>sss</Title>
-      <Shortcut>sss</Shortcut>
-      <Description>Select top n from</Description>
+      <Title>cd</Title>
+      <Shortcut>cd</Shortcut>
+      <Description>Count Distinct</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
@@ -13,13 +13,12 @@
     <Snippet>
       <Declarations>
         <Literal>
-          <ID>n</ID>
+          <ID>column</ID>
           <ToolTip />
           <Default />
         </Literal>
       </Declarations>
-      <Code Language="sql"><![CDATA[SELECT TOP ($n$) *
-FROM ]]></Code>
+      <Code Language="sql"><![CDATA[COUNT(DISTINCT $column$)]]></Code>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>

@@ -2,9 +2,9 @@
 <CodeSnippets>
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>sss</Title>
-      <Shortcut>sss</Shortcut>
-      <Description>Select top n from</Description>
+      <Title>atd</Title>
+      <Shortcut>atd</Shortcut>
+      <Description>Drop column</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
@@ -13,13 +13,12 @@
     <Snippet>
       <Declarations>
         <Literal>
-          <ID>n</ID>
+          <ID>table_name</ID>
           <ToolTip />
-          <Default />
+          <Default>[schema].[table_name]</Default>
         </Literal>
       </Declarations>
-      <Code Language="sql"><![CDATA[SELECT TOP ($n$) *
-FROM ]]></Code>
+      <Code Language="sql"><![CDATA[ALTER TABLE $table_name$ DROP COLUMN ]]></Code>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>

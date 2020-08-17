@@ -1,62 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<!---->
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <LayoutOptions version="1" type="LayoutOptions">
-  <ReservedWordsCasing>1</ReservedWordsCasing>
-  <BuiltInFunctionCasing>1</BuiltInFunctionCasing>
-  <BuiltInDataTypeCasing>1</BuiltInDataTypeCasing>
-  <GlobalVariableCasing>0</GlobalVariableCasing>
-  <DelimitIdentifiers>False</DelimitIdentifiers>
   <IndentationAmount>4</IndentationAmount>
   <TabIndentingBehaviour>0</TabIndentingBehaviour>
-  <ReformatExpressions>True</ReformatExpressions>
-  <FirstColumnOnNewLine>True</FirstColumnOnNewLine>
-  <CommasAtStart>False</CommasAtStart>
-  <MultilineSpacesAfterCommas>False</MultilineSpacesAfterCommas>
-  <MultilineSpacesBeforeCommas>False</MultilineSpacesBeforeCommas>
-  <MultilineAlignCommasWithStatement>True</MultilineAlignCommasWithStatement>
-  <OperatorsOnNewline>False</OperatorsOnNewline>
-  <OperatorsAtStart>True</OperatorsAtStart>
-  <IndentBeginToken>False</IndentBeginToken>
-  <IndentWithExpressionBrackets>True</IndentWithExpressionBrackets>
-  <IndentWithParameterBrackets>True</IndentWithParameterBrackets>
-  <IndentWithQueryBrackets>True</IndentWithQueryBrackets>
-  <CloseBracketsOnNewLine>False</CloseBracketsOnNewLine>
-  <OpenBracketsOnNewLine>False</OpenBracketsOnNewLine>
-  <Wrap>True</Wrap>
-  <WrapWidth>78</WrapWidth>
-  <ShortLength>40</ShortLength>
-  <CreateBracketsAtStartOfLines>False</CreateBracketsAtStartOfLines>
-  <ParameterBracketOnNewline>True</ParameterBracketOnNewline>
-  <CloseParameterBracketsOnNewLine>True</CloseParameterBracketsOnNewLine>
-  <CompactShortStatements>True</CompactShortStatements>
-  <SinglelineSpacesAfterCommas>True</SinglelineSpacesAfterCommas>
-  <SinglelineSpacesBeforeCommas>False</SinglelineSpacesBeforeCommas>
-  <SpacesAroundOperators>True</SpacesAroundOperators>
-  <SpacesAroundComparisons>True</SpacesAroundComparisons>
-  <FirstParameterDefinitionOnNewLine>True</FirstParameterDefinitionOnNewLine>
-  <SpacesAfterBrackets>False</SpacesAfterBrackets>
-  <LayoutSelectStatements>True</LayoutSelectStatements>
-  <LayoutCreateStatements>True</LayoutCreateStatements>
-  <QueryNewlineAfterOpenBracket>False</QueryNewlineAfterOpenBracket>
-  <QueryNewlineBeforeCloseBracket>False</QueryNewlineBeforeCloseBracket>
-  <JoinConditionsOnNewline>False</JoinConditionsOnNewline>
-  <AlignConditionsWithJoins>False</AlignConditionsWithJoins>
-  <AlignJoinsWithFrom>False</AlignJoinsWithFrom>
-  <AlignSelectWithInsert>True</AlignSelectWithInsert>
-  <IndentByKeywordWidth>False</IndentByKeywordWidth>
-  <ColumnsOnSingleLine>False</ColumnsOnSingleLine>
-  <DoNotIndentProcedureContents>True</DoNotIndentProcedureContents>
-  <ExecuteParametersOnSingleLine>True</ExecuteParametersOnSingleLine>
-  <IndentSelectSubclauses>False</IndentSelectSubclauses>
-  <UseObjectDefinitionCase>True</UseObjectDefinitionCase>
-  <FormatActionLayout>True</FormatActionLayout>
-  <FormatActionApplyCasing>True</FormatActionApplyCasing>
-  <FormatActionInsertSemicolons>True</FormatActionInsertSemicolons>
-  <FormatActionExpandWildCards>False</FormatActionExpandWildCards>
-  <FormatActionQualifyObjectNames>False</FormatActionQualifyObjectNames>
-  <FormatActionRemoveSquareBrackets>False</FormatActionRemoveSquareBrackets>
-  <FormatActionAddRemoveAsFromTableAlias>True</FormatActionAddRemoveAsFromTableAlias>
-  <FormatActionNormaliseColumnAlias>False</FormatActionNormaliseColumnAlias>
-  <FormatActionNUnicodeStrings>True</FormatActionNUnicodeStrings>
+  <FormatActionLayout>true</FormatActionLayout>
+  <FormatActionApplyCasing>true</FormatActionApplyCasing>
+  <FormatActionInsertSemicolons>true</FormatActionInsertSemicolons>
+  <FormatActionExpandWildCards>false</FormatActionExpandWildCards>
+  <FormatActionQualifyObjectNames>false</FormatActionQualifyObjectNames>
+  <FormatActionRemoveSquareBrackets>false</FormatActionRemoveSquareBrackets>
+  <FormatActionAddRemoveAsFromTableAlias>true</FormatActionAddRemoveAsFromTableAlias>
+  <FormatActionNormaliseColumnAlias>false</FormatActionNormaliseColumnAlias>
+  <FormatActionNUnicodeStrings>true</FormatActionNUnicodeStrings>
   <ColumnAliasBehaviour>0</ColumnAliasBehaviour>
 </LayoutOptions>

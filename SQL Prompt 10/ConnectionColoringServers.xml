@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+  <server>
+    <name>(local)</name>
+    <database>RedgateEmployeeTest</database>
+    <category>Development</category>
+  </server>
+  <server>
+    <name>(local)</name>
+    <database>RedgateEmployeeTest_Staging</database>
+    <category>Staging</category>
+  </server>
+  <server>
+    <name>(local)</name>
+    <database>Elector8</database>
+    <category>Development</category>
+  </server>
+  <server>
+    <name>(local)</name>
+    <database>Elector8PrivateInfo</database>
+    <category>Development</category>
+  </server>
+  <server>
+    <name>(local)</name>
+    <database>Elector8_1462</database>
+    <category>Production</category>
+  </server>
+</settings>

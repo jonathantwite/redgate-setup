@@ -2,9 +2,9 @@
 <CodeSnippets>
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>ssf</Title>
-      <Shortcut>ssf</Shortcut>
-      <Description>SELECT * FROM fragment</Description>
+      <Title>cnt</Title>
+      <Shortcut>cnt</Shortcut>
+      <Description>Count the records in a table</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
@@ -12,8 +12,8 @@
     </Header>
     <Snippet>
       <Declarations />
-      <Code Language="sql"><![CDATA[SELECT * 
-FROM ]]></Code>
+      <Code Language="sql"><![CDATA[SELECT COUNT(*)
+FROM $CURSOR$]]></Code>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>

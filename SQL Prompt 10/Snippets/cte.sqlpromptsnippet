@@ -2,9 +2,9 @@
 <CodeSnippets>
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>sss</Title>
-      <Shortcut>sss</Shortcut>
-      <Description>Select top n from</Description>
+      <Title>cte</Title>
+      <Shortcut>cte</Shortcut>
+      <Description>WITH cte fragment</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
@@ -13,13 +13,18 @@
     <Snippet>
       <Declarations>
         <Literal>
-          <ID>n</ID>
+          <ID>cte_name</ID>
           <ToolTip />
           <Default />
         </Literal>
       </Declarations>
-      <Code Language="sql"><![CDATA[SELECT TOP ($n$) *
-FROM ]]></Code>
+      <Code Language="sql"><![CDATA[
+        WITH $cte_name$ AS
+(
+$SELECTEDTEXT$
+)
+SELECT $CURSOR$
+FROM $cte_name$]]></Code>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>

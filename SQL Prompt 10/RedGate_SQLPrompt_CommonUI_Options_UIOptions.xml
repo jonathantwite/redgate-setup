@@ -1,57 +1,52 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<!---->
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <UIOptions version="1" type="UIOptions">
-  <SuggestionsEnabledOnStartUpSSMS>True</SuggestionsEnabledOnStartUpSSMS>
-  <SuggestionsEnabledOnStartUpVisualStudio>True</SuggestionsEnabledOnStartUpVisualStudio>
-  <CandidateListCompleteEnter>True</CandidateListCompleteEnter>
-  <MarkSyntaxErrors>False</MarkSyntaxErrors>
-  <CandidateListCompleteSpace>False</CandidateListCompleteSpace>
-  <CandidateListCompleteTab>True</CandidateListCompleteTab>
-  <CandidateListOrderColumnsAlphabetically>True</CandidateListOrderColumnsAlphabetically>
-  <CandidateListCompleteDot>False</CandidateListCompleteDot>
-  <CandidateListCompleteComma>False</CandidateListCompleteComma>
-  <CandidateListCompleteSquareBrackets>False</CandidateListCompleteSquareBrackets>
-  <CandidateListCompleteParentheses>False</CandidateListCompleteParentheses>
-  <CandidateListCompleteSemicolon>False</CandidateListCompleteSemicolon>
-  <CandidateListDisplayTypeInfo>True</CandidateListDisplayTypeInfo>
-  <ShowSchemaPanel>True</ShowSchemaPanel>
+  <SuggestionsEnabledOnStartUpSSMS>true</SuggestionsEnabledOnStartUpSSMS>
+  <SuggestionsEnabledOnStartUpVisualStudio>true</SuggestionsEnabledOnStartUpVisualStudio>
+  <CandidateListCompleteEnter>true</CandidateListCompleteEnter>
+  <MarkSyntaxErrors>false</MarkSyntaxErrors>
+  <CandidateListCompleteSpace>false</CandidateListCompleteSpace>
+  <CandidateListCompleteTab>true</CandidateListCompleteTab>
+  <CandidateListOrderColumnsAlphabetically>true</CandidateListOrderColumnsAlphabetically>
+  <CandidateListCompleteDot>false</CandidateListCompleteDot>
+  <CandidateListCompleteComma>false</CandidateListCompleteComma>
+  <CandidateListCompleteSquareBrackets>false</CandidateListCompleteSquareBrackets>
+  <CandidateListCompleteParentheses>false</CandidateListCompleteParentheses>
+  <CandidateListCompleteSemicolon>false</CandidateListCompleteSemicolon>
+  <CandidateListDisplayTypeInfo>true</CandidateListDisplayTypeInfo>
+  <ShowSchemaPanel>true</ShowSchemaPanel>
   <SchemaPanelDelayMilliseconds>500</SchemaPanelDelayMilliseconds>
   <SuggestionsPopupDelayMilliseconds>200</SuggestionsPopupDelayMilliseconds>
-  <EnableCtrlLeftCtrlRight>True</EnableCtrlLeftCtrlRight>
-  <EnableShiftlLeftShiftRight>False</EnableShiftlLeftShiftRight>
-  <EnableObjectDefns>True</EnableObjectDefns>
-  <EnableParamHints>True</EnableParamHints>
-  <EnableLayout>True</EnableLayout>
-  <SchemaPanelWidth>300</SchemaPanelWidth>
-  <SchemaPanelHeight>275</SchemaPanelHeight>
-  <SchemaPanelShowTable>False</SchemaPanelShowTable>
+  <EnableCtrlLeftCtrlRight>true</EnableCtrlLeftCtrlRight>
+  <EnableShiftlLeftShiftRight>false</EnableShiftlLeftShiftRight>
+  <EnableObjectDefns>true</EnableObjectDefns>
+  <EnableParamHints>true</EnableParamHints>
+  <EnableLayout>true</EnableLayout>
+  <SchemaPanelWidth>1868</SchemaPanelWidth>
+  <SchemaPanelHeight>441</SchemaPanelHeight>
+  <SchemaPanelShowTable>false</SchemaPanelShowTable>
   <CandidateListWidth>350</CandidateListWidth>
   <CandidateListHeight>200</CandidateListHeight>
   <CandidateListColumnDivider>0.5</CandidateListColumnDivider>
-  <CandidateListSaveSizeBetweenSessions>True</CandidateListSaveSizeBetweenSessions>
-  <CurrentStyleModified>False</CurrentStyleModified>
-  <ShowColumnPickerTip>True</ShowColumnPickerTip>
-  <ShowSwitchToColumnPickerTip>True</ShowSwitchToColumnPickerTip>
-  <ShowDontDisplayObjectDescriptionBoxTip>True</ShowDontDisplayObjectDescriptionBoxTip>
-  <ShowSnippetTemplateParameterDialog>True</ShowSnippetTemplateParameterDialog>
-  <ShowSchemaPrefixes>False</ShowSchemaPrefixes>
-  <HighlightChanges>True</HighlightChanges>
-  <UseCamelHumps>False</UseCamelHumps>
-  <ShowExecutionWarnings>True</ShowExecutionWarnings>
-  <ShowExecutionWarningsForInnerJoins>True</ShowExecutionWarningsForInnerJoins>
-  <ShowExecutionWarningsForProcsAndTriggers>True</ShowExecutionWarningsForProcsAndTriggers>
-  <ShowExecutionWarningsForTruncateStatements>False</ShowExecutionWarningsForTruncateStatements>
-  <ShowExecutionWarningsForDropStatements>False</ShowExecutionWarningsForDropStatements>
-  <EnableSurroundWithPopup>True</EnableSurroundWithPopup>
-  <EnableHighlightMatchingObjects>True</EnableHighlightMatchingObjects>
-  <DisableTabColoring>False</DisableTabColoring>
-  <AlwaysRecreateCommands>False</AlwaysRecreateCommands>
-  <FormatterActiveStyleName>Active Style (old)</FormatterActiveStyleName>
-  <TransparentPopupsEnabled>True</TransparentPopupsEnabled>
-  <MigratedStyles>True</MigratedStyles>
-  <KeyboardBindingOverrides version="1" type="RedGate.SQLPrompt.CommonUI.Options.Options.KeyboardBindingOverrides">
-    <Overrides type="Overrides" version="2" />
-  </KeyboardBindingOverrides>
-  <ProvidedFirstUseLoginPopup>True</ProvidedFirstUseLoginPopup>
-  <IsCodeAnalysisEnabled>True</IsCodeAnalysisEnabled>
+  <CandidateListSaveSizeBetweenSessions>true</CandidateListSaveSizeBetweenSessions>
+  <CurrentStyleModified>false</CurrentStyleModified>
+  <ShowColumnPickerTip>true</ShowColumnPickerTip>
+  <ShowSwitchToColumnPickerTip>true</ShowSwitchToColumnPickerTip>
+  <ShowDontDisplayObjectDescriptionBoxTip>true</ShowDontDisplayObjectDescriptionBoxTip>
+  <ShowSnippetTemplateParameterDialog>true</ShowSnippetTemplateParameterDialog>
+  <ShowSchemaPrefixes>false</ShowSchemaPrefixes>
+  <HighlightChanges>true</HighlightChanges>
+  <UseCamelHumps>false</UseCamelHumps>
+  <ShowExecutionWarnings>true</ShowExecutionWarnings>
+  <ShowExecutionWarningsForInnerJoins>true</ShowExecutionWarningsForInnerJoins>
+  <ShowExecutionWarningsForProcsAndTriggers>true</ShowExecutionWarningsForProcsAndTriggers>
+  <ShowExecutionWarningsForTruncateStatements>false</ShowExecutionWarningsForTruncateStatements>
+  <ShowExecutionWarningsForDropStatements>false</ShowExecutionWarningsForDropStatements>
+  <EnableSurroundWithPopup>true</EnableSurroundWithPopup>
+  <EnableHighlightMatchingObjects>true</EnableHighlightMatchingObjects>
+  <DisableTabColoring>false</DisableTabColoring>
+  <AlwaysRecreateCommands>false</AlwaysRecreateCommands>
+  <FormatterActiveStyleName>Twite</FormatterActiveStyleName>
+  <TransparentPopupsEnabled>true</TransparentPopupsEnabled>
+  <ProvidedFirstUseLoginPopup>true</ProvidedFirstUseLoginPopup>
+  <IsCodeAnalysisEnabled>true</IsCodeAnalysisEnabled>
 </UIOptions>

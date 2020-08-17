@@ -2,9 +2,9 @@
 <CodeSnippets>
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>ssf</Title>
-      <Shortcut>ssf</Shortcut>
-      <Description>SELECT * FROM fragment</Description>
+      <Title>be</Title>
+      <Shortcut>be</Shortcut>
+      <Description>BEGIN...END block</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
@@ -12,8 +12,9 @@
     </Header>
     <Snippet>
       <Declarations />
-      <Code Language="sql"><![CDATA[SELECT * 
-FROM ]]></Code>
+      <Code Language="sql"><![CDATA[BEGIN
+    $SELECTEDTEXT$$CURSOR$
+END]]></Code>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>

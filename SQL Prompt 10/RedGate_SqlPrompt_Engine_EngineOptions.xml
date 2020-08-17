@@ -1,67 +1,70 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<!---->
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <EngineOptions version="1" type="EngineOptions">
-  <AutoPopupEnabled>True</AutoPopupEnabled>
-  <QualifyObjectNames>False</QualifyObjectNames>
-  <AliasTableViewNames>True</AliasTableViewNames>
-  <IncludeAsInAliasDefinition>True</IncludeAsInAliasDefinition>
-  <CapitaliseGeneratedAliases>True</CapitaliseGeneratedAliases>
-  <QualifyColumnNames>True</QualifyColumnNames>
-  <QualifyColumnNamesWithAliases>True</QualifyColumnNamesWithAliases>
-  <EncloseIdentifiersInSquareBrackets>False</EncloseIdentifiersInSquareBrackets>
-  <InsertInvocationSignatureForFunctionsAndSPs>True</InsertInvocationSignatureForFunctionsAndSPs>
-  <DeclareVariablesForOutputParameters>True</DeclareVariablesForOutputParameters>
-  <AddDefaultValuesForParameters>True</AddDefaultValuesForParameters>
-  <InsertTypeHintsForParameters>True</InsertTypeHintsForParameters>
-  <InsertParenthesesForFunctionInvocation>True</InsertParenthesesForFunctionInvocation>
-  <GenerateFullInsertStatement>True</GenerateFullInsertStatement>
-  <AddDefaultValuesForInsert>True</AddDefaultValuesForInsert>
-  <IncludeValuesClauseForInsert>True</IncludeValuesClauseForInsert>
-  <InsertOutputColumnList>False</InsertOutputColumnList>
-  <IncludeTypeHintsForInsertedValues>True</IncludeTypeHintsForInsertedValues>
-  <IncludeColumnNameHints>True</IncludeColumnNameHints>
-  <IncludePartialFKJoinConditions>False</IncludePartialFKJoinConditions>
-  <AlwaysIncludeNameMatchedJoinConditions>True</AlwaysIncludeNameMatchedJoinConditions>
-  <AlwaysIncludeTypeMatchedJoinConditions>False</AlwaysIncludeTypeMatchedJoinConditions>
-  <FlipColumnsOnJoinCondition>True</FlipColumnsOnJoinCondition>
-  <AutoGenerateAlterProcStatement>True</AutoGenerateAlterProcStatement>
-  <AutoInsertParenthesesForBuiltInFunctionsAndTypes>True</AutoInsertParenthesesForBuiltInFunctionsAndTypes>
+  <AutoPopupEnabled>true</AutoPopupEnabled>
+  <QualifyObjectNames>true</QualifyObjectNames>
+  <AliasTableViewNames>true</AliasTableViewNames>
+  <IncludeAsInAliasDefinition>true</IncludeAsInAliasDefinition>
+  <CapitaliseGeneratedAliases>true</CapitaliseGeneratedAliases>
+  <QualifyColumnNames>true</QualifyColumnNames>
+  <QualifyColumnNamesWithAliases>true</QualifyColumnNamesWithAliases>
+  <EncloseIdentifiersInSquareBrackets>false</EncloseIdentifiersInSquareBrackets>
+  <InsertInvocationSignatureForFunctionsAndSPs>true</InsertInvocationSignatureForFunctionsAndSPs>
+  <DeclareVariablesForOutputParameters>true</DeclareVariablesForOutputParameters>
+  <AddDefaultValuesForParameters>true</AddDefaultValuesForParameters>
+  <InsertTypeHintsForParameters>true</InsertTypeHintsForParameters>
+  <InsertParenthesesForFunctionInvocation>true</InsertParenthesesForFunctionInvocation>
+  <GenerateFullInsertStatement>true</GenerateFullInsertStatement>
+  <AddDefaultValuesForInsert>true</AddDefaultValuesForInsert>
+  <IncludeValuesClauseForInsert>true</IncludeValuesClauseForInsert>
+  <InsertOutputColumnList>false</InsertOutputColumnList>
+  <IncludeTypeHintsForInsertedValues>true</IncludeTypeHintsForInsertedValues>
+  <IncludeColumnNameHints>true</IncludeColumnNameHints>
+  <IncludePartialFKJoinConditions>false</IncludePartialFKJoinConditions>
+  <AlwaysIncludeNameMatchedJoinConditions>true</AlwaysIncludeNameMatchedJoinConditions>
+  <AlwaysIncludeTypeMatchedJoinConditions>false</AlwaysIncludeTypeMatchedJoinConditions>
+  <FlipColumnsOnJoinCondition>true</FlipColumnsOnJoinCondition>
+  <AutoGenerateAlterProcStatement>true</AutoGenerateAlterProcStatement>
+  <AutoInsertParenthesesForBuiltInFunctionsAndTypes>true</AutoInsertParenthesesForBuiltInFunctionsAndTypes>
   <MaxFileSizeToCacheInKB>5120</MaxFileSizeToCacheInKB>
-  <EnableAllColumnsDisplay>True</EnableAllColumnsDisplay>
-  <AutoTerminateMultilineComments>True</AutoTerminateMultilineComments>
-  <AutoInsertClosingParenthesis>True</AutoInsertClosingParenthesis>
-  <AutoInsertClosingSquareBrace>True</AutoInsertClosingSquareBrace>
-  <AutoInsertClosingSingleQuote>True</AutoInsertClosingSingleQuote>
-  <AutoInsertClosingDoubleQuote>False</AutoInsertClosingDoubleQuote>
-  <AttemptDecryption>True</AttemptDecryption>
-  <SynonymsEnabled>True</SynonymsEnabled>
-  <CacheLinkedServers>True</CacheLinkedServers>
-  <CacheSynonymDatabases>False</CacheSynonymDatabases>
-  <ShowSystemObjects>False</ShowSystemObjects>
-  <MatchIndentationOnNewline>False</MatchIndentationOnNewline>
-  <IndentAllInsertions>True</IndentAllInsertions>
+  <EnableAllColumnsDisplay>true</EnableAllColumnsDisplay>
+  <AutoTerminateMultilineComments>true</AutoTerminateMultilineComments>
+  <AutoInsertClosingParenthesis>true</AutoInsertClosingParenthesis>
+  <AutoInsertClosingSquareBrace>true</AutoInsertClosingSquareBrace>
+  <AutoInsertClosingSingleQuote>true</AutoInsertClosingSingleQuote>
+  <AutoInsertClosingDoubleQuote>false</AutoInsertClosingDoubleQuote>
+  <AttemptDecryption>true</AttemptDecryption>
+  <SynonymsEnabled>true</SynonymsEnabled>
+  <CacheLinkedServers>true</CacheLinkedServers>
+  <CacheSynonymDatabases>false</CacheSynonymDatabases>
+  <ShowSystemObjects>false</ShowSystemObjects>
+  <MatchIndentationOnNewline>false</MatchIndentationOnNewline>
+  <IndentAllInsertions>true</IndentAllInsertions>
   <ParserLookAheadDistance>3000</ParserLookAheadDistance>
-  <ParserUncachedLines>50</ParserUncachedLines>
-  <IncludedServersAndDatabases />
-  <ExcludedServersAndDatabases />
+  <ParserUncachedLines>10</ParserUncachedLines>
+  <IncludedServersAndDatabases version="1" type="RedGate.SqlPrompt.Metadata.Options.ServerFilterList">
+    <ServerFilterList type="RedGate.SqlPrompt.Metadata.Options.ServerFilterList" version="2" />
+  </IncludedServersAndDatabases>
+  <ExcludedServersAndDatabases version="1" type="RedGate.SqlPrompt.Metadata.Options.ServerFilterList">
+    <ServerFilterList type="RedGate.SqlPrompt.Metadata.Options.ServerFilterList" version="2" />
+  </ExcludedServersAndDatabases>
   <FilterServers>0</FilterServers>
-  <LogFileMaxAgeDays>7</LogFileMaxAgeDays>
   <UserDefinedAliases>&lt;UserDefinedAliases&gt;
   &lt;Count&gt;0&lt;/Count&gt;
 &lt;/UserDefinedAliases&gt;</UserDefinedAliases>
   <IgnoredPrefixes>&lt;IgnoredPrefixes&gt;
-  &lt;Count&gt;2&lt;/Count&gt;
+  &lt;Count&gt;3&lt;/Count&gt;
   &lt;Prefix&gt;tbl&lt;/Prefix&gt;
   &lt;Prefix&gt;v_&lt;/Prefix&gt;
+  &lt;Prefix&gt;zz_&lt;/Prefix&gt;
 &lt;/IgnoredPrefixes&gt;</IgnoredPrefixes>
-  <OrderColumnsAlphabetically>False</OrderColumnsAlphabetically>
+  <OrderColumnsAlphabetically>false</OrderColumnsAlphabetically>
   <CommandTimeout>30</CommandTimeout>
   <ConnectionTimeout>15</ConnectionTimeout>
-  <IsAutoRefreshEnabled>False</IsAutoRefreshEnabled>
-  <RefreshSsmsIntellisense>False</RefreshSsmsIntellisense>
-  <OvertypeClosingChars>True</OvertypeClosingChars>
-  <TestGenerateFullUpdateStatement>False</TestGenerateFullUpdateStatement>
-  <TestAddDefaultValuesForUpdate>False</TestAddDefaultValuesForUpdate>
-  <TestIncludeTypeHintsForUpdatedValues>False</TestIncludeTypeHintsForUpdatedValues>
-  <RankedSuggestionsEnabled>True</RankedSuggestionsEnabled>
+  <IsAutoRefreshEnabled>false</IsAutoRefreshEnabled>
+  <RefreshSsmsIntellisense>false</RefreshSsmsIntellisense>
+  <OvertypeClosingChars>true</OvertypeClosingChars>
+  <TestGenerateFullUpdateStatement>false</TestGenerateFullUpdateStatement>
+  <TestAddDefaultValuesForUpdate>false</TestAddDefaultValuesForUpdate>
+  <TestIncludeTypeHintsForUpdatedValues>false</TestIncludeTypeHintsForUpdatedValues>
+  <RankedSuggestionsEnabled>true</RankedSuggestionsEnabled>
 </EngineOptions>

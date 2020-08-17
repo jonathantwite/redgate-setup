@@ -2,9 +2,9 @@
 <CodeSnippets>
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>ssf</Title>
-      <Shortcut>ssf</Shortcut>
-      <Description>SELECT * FROM fragment</Description>
+      <Title>san</Title>
+      <Shortcut>san</Shortcut>
+      <Description>Change the current ANSI_NULLS setting</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
@@ -12,8 +12,7 @@
     </Header>
     <Snippet>
       <Declarations />
-      <Code Language="sql"><![CDATA[SELECT * 
-FROM ]]></Code>
+      <Code Language="sql"><![CDATA[SET ANSI_NULLS ON]]></Code>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>

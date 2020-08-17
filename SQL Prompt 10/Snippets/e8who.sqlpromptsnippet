@@ -2,9 +2,9 @@
 <CodeSnippets>
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>ssf</Title>
-      <Shortcut>ssf</Shortcut>
-      <Description>SELECT * FROM fragment</Description>
+      <Title>e8who</Title>
+      <Shortcut>e8who</Shortcut>
+      <Description>Return the database's authority</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
@@ -12,8 +12,8 @@
     </Header>
     <Snippet>
       <Declarations />
-      <Code Language="sql"><![CDATA[SELECT * 
-FROM ]]></Code>
+      <Code Language="sql"><![CDATA[SELECT E.OwnerName, E.ERONationID
+FROM dbo.ERO AS E]]></Code>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>

@@ -2,9 +2,9 @@
 <CodeSnippets>
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>sss</Title>
-      <Shortcut>sss</Shortcut>
-      <Description>Select top n from</Description>
+      <Title>cv</Title>
+      <Shortcut>cv</Shortcut>
+      <Description>Create view</Description>
       <Author />
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
@@ -13,13 +13,18 @@
     <Snippet>
       <Declarations>
         <Literal>
-          <ID>n</ID>
+          <ID>view_name</ID>
           <ToolTip />
-          <Default />
+          <Default>[schema].[view_name]</Default>
         </Literal>
       </Declarations>
-      <Code Language="sql"><![CDATA[SELECT TOP ($n$) *
-FROM ]]></Code>
+      <Code Language="sql"><![CDATA[CREATE VIEW $view_name$
+--WITH ENCRYPTION, SCHEMABINDING, VIEW_METADATA
+AS
+    $SELECTEDTEXT$$CURSOR$
+-- WITH CHECK OPTION
+GO
+]]></Code>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>
